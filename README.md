@@ -14,20 +14,35 @@ It also includes sample CSV datasets and scripts for local development.
 ## 📂 Project Structure
 
 Airflow-Spark-Dynamo
+
 │
+
 ├── architecture
+
 │ ├── etl_using_airflow_pyspark.pdf # Detailed PDF documentation
+
 │ └── Screenshot...png # Architecture diagram
+
 │
+
 ├── dag-glue-workflow.py # Airflow DAG for orchestration
+
 ├── data
+
 │ ├── songs.csv
+
 │ ├── streams1.csv
+
 │ ├── streams2.csv
+
 │ └── users.csv
+
 │
+
 ├── glue-dynamo.py # Loads data into DynamoDB
+
 ├── glue-pyspark.py # PySpark ETL transformations
+
 └── local-docker-development.sh # Local Docker setup script
 
 
