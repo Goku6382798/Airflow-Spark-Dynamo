@@ -44,5 +44,5 @@ Airflow-Spark-Dynamo
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   https://github.com/Goku6382798/Airflow-Spark-Dynamo/tree/main
    cd Airflow-Spark-Dynamo
